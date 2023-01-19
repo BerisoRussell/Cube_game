@@ -20,7 +20,7 @@ let blockLeft = parseInt(
 );
 
 if (blockLeft < 50 && blockLeft > 0 && cubeTop >= 140) {
-    // collision
+
     alert("Game Over!");
 }
 }, 10);
