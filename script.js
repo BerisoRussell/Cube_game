@@ -19,9 +19,9 @@ let blockLeft = parseInt(
     window.getComputedStyle(block).getPropertyValue("left")
 );
 
-if (blockLeft < 50 && blockLeft > 0 && cubeTop >= 140) {
+if (blockLeft < 40 && blockLeft > 0 && cubeTop >= 140) {
 
-    alert("Game Over!");
+    alert('Game Over')
 }
 }, 10);
 
